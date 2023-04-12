@@ -1,34 +1,23 @@
-let objType :{
-    id:number,
+
+
+
+
+let obj:{
     name:string,
-    username:string,
-    email:string,
-    isStudent:boolean,
+    age:number,
     address:{
         street:string,
-        city:string,
-        geo:{
-            lat:string,
-            lng:string
-        }
-    }
+        town:string
+    },
+    status:string[],
+    isMerried:boolean
+} = {
+    name:'Shavkat',
+    age:22,
+    address:{
+        street:'test',
+        town:'test'
+    },
+    status:['student','programmer'],
+    isMerried:false,
 }
-
-
-let obj = {
-    id: 1,
-    name: "Leanne Graham",
-    username: "Bret",
-    email: "Sincere@april.biz",
-    isStudent:true,
-    address: {
-        street: "Kulas Light",
-        city: "Gwenborough",
-        geo: {
-            lat: "-37.3159",
-            lng: "81.1496"
-        }
-    }
-
-}
-

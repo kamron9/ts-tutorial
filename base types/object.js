@@ -1,17 +1,11 @@
 "use strict";
-let objType;
 let obj = {
-    id: 1,
-    name: "Leanne Graham",
-    username: "Bret",
-    email: "Sincere@april.biz",
-    isStudent: true,
+    name: 'Shavkat',
+    age: 22,
     address: {
-        street: "Kulas Light",
-        city: "Gwenborough",
-        geo: {
-            lat: "-37.3159",
-            lng: "81.1496"
-        }
-    }
+        street: 'test',
+        town: 'test'
+    },
+    status: ['student', 'programmer'],
+    isMerried: false,
 };
